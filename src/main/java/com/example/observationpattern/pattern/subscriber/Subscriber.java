@@ -85,7 +85,6 @@ public class Subscriber implements Runnable, Serializable, ShutdownThread, Obser
         return false;
     }
 
-    // TODO implement this feature
     public boolean unSubscribeChannel(String channel) {
         // Send a message to the channel's unsubscribe notification box.
         // Model this method after subscribeChannel method in this class.
